@@ -23,7 +23,7 @@ function FatcVoter({ contract, account, provider }) {
               <tbody>
                 <tr className="p-2">
                   {/* <td>{voter.Id.toString()}</td> */}
-                  <td className="p-2">Cử tri {voter.name} </td>
+                  <td className="p-2">Ứng viên {voter.name} </td>
                   <td className="p-2">Địa chỉ ví {voter.voterAddress} </td>
                   <td className="p-2">Đã bầu cho {voter._CandidateAddress} </td>
                 </tr>
