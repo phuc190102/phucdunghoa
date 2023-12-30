@@ -55,7 +55,7 @@ function Propsal({ contract, account, provider }) {
             <input type="text" id="Account" class="form-control"></input>
           </div>
           <div className="p-2">
-            Địa chỉ của tên ứng viên{" "}
+            Tên ứng viên{" "}
             <input type="text" id="Name" class="form-control"></input>
           </div>
           <button type="submit" className="btn btn-dark mt-2">
