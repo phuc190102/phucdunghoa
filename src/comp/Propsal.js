@@ -78,7 +78,7 @@ function Propsal({ contract, account, provider }) {
       <div className="mt-3">
         {<p className="text-dark h3">Ứng cử viên tiếp theo</p>}
         {<button onClick={Fatch} className="btn btn-success">
-          Bỏ phiếu cho ứng viên tiếp theo
+          Xem danh sách các ứng cử viên tiếp theo
         </button>}
         {candidates.map((candidate) => {
           return (

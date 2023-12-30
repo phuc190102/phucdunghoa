@@ -15,7 +15,7 @@ function FatcVoter({ contract, account, provider }) {
 
   return (
     <div>
-      <p className="text-dark h3">Thông tin người bỏ phiếu</p>
+      <p className="text-dark h3">Lịch sử bỏ phiếu</p>
       {voters.map((voter) => {
         return (
           <div key={Math.random()}>
@@ -23,9 +23,9 @@ function FatcVoter({ contract, account, provider }) {
               <tbody>
                 <tr className="p-2">
                   {/* <td>{voter.Id.toString()}</td> */}
-                  <td className="p-2">Voter {voter.name} </td>
-                  <td className="p-2">VoterAddress {voter.voterAddress} </td>
-                  <td className="p-2">Voted To {voter._CandidateAddress} </td>
+                  <td className="p-2">Cử tri {voter.name} </td>
+                  <td className="p-2">Địa chỉ ví {voter.voterAddress} </td>
+                  <td className="p-2">Đã bầu cho {voter._CandidateAddress} </td>
                 </tr>
               </tbody>
             </table>
